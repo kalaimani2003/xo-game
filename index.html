@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO Game</title>
+    <link rel="stylesheet" href="xo.css">
+    <script src="xo.js"></script>
+</head>
+<body>
+
+  <!-- turns layout -->
+  <div class="tit">XO - GAME</div>
+
+  <div class="turn-out">
+    <div class="turn-in" id="turns">
+       Start with X
+    </div>
+  </div>
+
+
+    <div class="con-out">
+      <div class="con-in" onclick="win()">
+        <div class="box" id="box1" onclick="xobox1()"></div>
+        <div class="box" id="box2" onclick="xobox2()"></div>
+        <div class="box" id="box3" onclick="xobox3()"></div>
+        <div class="box" id="box4" onclick="xobox4()"></div>
+        <div class="box" id="box5" onclick="xobox5()"></div>
+        <div class="box" id="box6" onclick="xobox6()"></div>
+        <div class="box" id="box7" onclick="xobox7()"></div>
+        <div class="box" id="box8" onclick="xobox8()"></div>
+        <div class="box" id="box9" onclick="xobox9()"></div>
+      </div>
+    </div>
+    <div class="con-out2">
+      <button class="con-in2" id="restart" onclick="resrt()">
+        Restart
+      </button>
+    </div>
+
+
+    <!-- winning layout -->
+
+    <div class="turn-out">
+      <div class="turn-in" id="wins">
+           <!-- X wins or O wins -->
+      </div>
+    </div>
+</body>
+</html>

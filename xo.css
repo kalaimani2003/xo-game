@@ -1,0 +1,125 @@
+
+/* turns layout */
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+
+@keyframes bodycolor
+{
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-7px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(173, 216, 230, 0.7), rgba(255, 182, 193, 0.7));
+    animation-name: bodycolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.tit{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.3);
+    /* background-image: linear-gradient(to right, red, yellow, green, blue); */
+    background: linear-gradient(to right, cyan, blue, indigo,  violet );
+
+}
+
+.turn-out{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.turn-in{
+    width: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(106, 1, 226);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* box layout */
+
+
+.con-out{
+    height: 307px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.con-in{
+    height: 100%;
+    width: 300x;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    box-shadow:red 0px 0px 10px 3px;
+
+}
+
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* restart css */
+
+.con-out2{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.con-in2{
+    background-color: rgba(0, 255, 55, 0.821);
+    height: 40px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: rgb(142, 4, 4);
+    font-size: large;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow:rgb(83, 83, 83) 0px 0px 10px 3px;
+}
+
+
+
+
+
+
